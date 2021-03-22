@@ -1,0 +1,9 @@
+apt-get update
+apt-get install -y libsm6 libxext6 libxrender-dev
+pip install opencv-python==4.2.0.32 pillow scikit-image scikit-learn easydict glog loguru
+
+export QT_X11_NO_MITSHM=1 #put this in docker
+-e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+
+
+xhost +

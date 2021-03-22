@@ -1,0 +1,8 @@
+/tusimple_dataset
+/log
+/logs
+/.vscode
+/.ipynb_checkpoints
+/.dvc
+**/*.pyc
+
